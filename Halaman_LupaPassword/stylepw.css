@@ -1,0 +1,115 @@
+html {
+    background-image: url('assets/Bcg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  .container {
+    position: relative;
+  }
+  
+  .section-login {
+    position: absolute;
+    width: 450px;
+    height: 500px;
+    left: 70px;
+    top: 47.43px;
+    
+    /* Blue */
+    
+    background: #66BAFF;
+    border-radius: 28.4583px;
+  }
+
+  .section-icon{
+    position: absolute;
+    width: 450px;
+    height: 457.63px;
+    left: 700px;
+    top: 80px;
+    
+    background: url("assets/ForgotPw.png");
+  }
+  .login-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 67px;
+    margin-top: 20px;
+    margin-left: 49px;
+    margin-right: 112px;
+    color: #ffffff;
+  }
+  
+  .section-intro {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+  }
+  
+  .text-intro {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #ffffff;
+  }
+  
+  .text-welcome{
+    position: absolute;
+    margin-left: 49px;
+    margin-right: 50px;
+  }
+  
+  .text {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  
+  .section-form {
+    margin-left: 49px;
+    margin-right: 40px;
+  }
+  
+  .label-input {
+    color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  .form-input-name {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-top: auto;
+    width: 350px;
+    height: 50px;
+    border: 1px solid #ffffff;
+  }
+
+  .btn-send a{
+    text-decoration: none;
+    font: 20px;
+    color: blanchedalmond;
+    position: absolute;
+    background-color: #292929;
+    width: 67px;
+    height: 40px;
+    left: 300px;
+    top: 260px;
+    padding-top: 15px;
+    padding-left: 33px;
+    border-radius: 10px;
+  }
+
+  .text-back a{
+    text-decoration: none;
+    position: absolute;
+    font-size: 20px;
+    color: #292929;
+    font-size: bold;
+    margin-top: 20px;
+  }
