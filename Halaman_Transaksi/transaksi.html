@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css?family=PT+Sans">
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://kit.fontawesome.com/f2db5c1d14.js" crossorigin="anonymous"></script>
+    <title>Transaksi</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+  <nav class="shadow">
+    <ul class="menu">
+        <a href=""> <img class ="namabrand" src="img/NamaBrand.png" width="90" height="60"></img></a>
+        <li class="item"><a href="">Home</a></li>
+        <li class="item"><a href="">Jadi Mitra</a></li>
+        <li class="item"><a href="">Berita</a></li>
+        <li class="item"><a href="">Edukasi</a></li>
+        <li class="item"><a href="">Tentang Kita</a></li>
+        <li class="item"><a href="">Produk</a></li>
+        <li class="item"><a href=""><span>Nama User</span></a></li>
+    </ul>
+  </nav>
+  <!-- Nav Bar -->
+
+  <div class="navbarSecond">
+    <ul class="menuSecond">
+      <li class="itemSecond">
+        <select name="kategori" id="kategori" placeholder="kategori">
+          <option value="kategori">Kategori</option>
+          <option value="daging">Daging</option>
+          <option value="telur">Telur</option>
+          <option value="susu">Susu</option>
+        </select>
+      </li>
+      <li class="itemSecond">
+        <div class="input-icon">
+        <input type="search" name="search" id="search-produk" placeholder="Cari Produk">
+        <i class="fas fa-search"></i>
+        </div>
+      </li>
+      <li class="itemSecond"><a href="">Keranjang</a></li>
+      <li class="itemSecond"><a href="">Favourite</a></li>
+      <li class="itemSecond"><a href="">Transaksi</a></li>
+      <li class="itemSecond"><a href="">Transaksi</a></li>
+    </ul>
+  </div>
+
+  <br>
+
+  <div class="navbarThird">
+    <ul class="menuThird">
+      <li class="itemThird">
+        <div class="input-icon-transaksi">
+        <input type="search" name="search" id="search-transaksi" placeholder="Cari Transaksi">
+        <i class="fas fa-search"></i>
+        </div>
+      </li>
+      <li class="itemThird">
+        <select name="pilih-status" id="pilih-status" placeholder="Pilih Status">
+          <option value="pilih-status">Pilih Status</option>
+          <option value="dikemas">Dikemas</option>
+          <option value="terkirim">Terkirim</option>
+          <option value="selesai">Selesai</option>
+          <option value="ulasan">Ulasan</option>
+          <option value="dibatalkan">Dibatalkan</option>
+          <option value="dikembalikan">Dikembalikan</option>
+        </select>
+      </li>
+      <li class="itemThird">
+        <select name="urutan" id="urutan" placeholder="urutan">
+          <option value="urutkan">Urutkan</option>
+          <option value="baru-lama">Transaksi Baru-Lama</option>
+          <option value="lama-baru">Transaksi Lama-Baru</option>
+        </select>
+      </li>
+    </ul>
+  </div>
+
+  <div class="konten">
+    <table>
+      <tr>
+        <th>No.Pesanan</th>
+        <th>Total</th>
+        <th>Status Pesanan</th>
+        <th>Tanggal Transaksi</th>
+      </tr>
+      <tr>
+       <td>CT2116X3W11KINV</td>
+       <td>Rp.250.000</td>
+       <td>Dibayar</td>
+       <td>28 Oktober 2021 21.07 WIB</td>
+      </tr>
+      <tr>
+        <th>Barang</th>
+        <th colspan="2">Status Pembelian</th>
+        <td rowspan="2">
+          <button>Konfirmasi Terima Barang</button>
+          <br><br>
+          <button>Komplain</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img src="img/telur.png" alt="telur" width="90px">
+          <br>Telur Ayam
+        </td>
+        <td colspan="2">Dikirim</td>
+      </tr>
+    </table>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+        <img class="pemisah" src="img/lineFooter.png" height="10" width="1000">
+        <table width="100%">
+          <tr>
+            <td width="70%" class="left">
+              <h3>Cattle Indonesia</h3>
+              <p>Produk Peternakan Terbaik <br>
+                Langsung dari Peternak  <br>
+                Asli Indonesia</p>
+            </td>
+            <td width="30%" class="right">
+              <p><a href="">Info</a></p>
+              <p><a href="">Contact Us</a></p>
+              <p><a href="">Privacy Policies</a></p>
+              <p><a href="">Terms & Conditions</a></p>
+            </td>
+          </tr>
+        </table>
+    </div>
+    <div class="footer-bottom">
+        <p>©Cattle Indonesia All Rights Reserved.</p>
+    </div>
+</footer>
+  
+</body>
+</html>
