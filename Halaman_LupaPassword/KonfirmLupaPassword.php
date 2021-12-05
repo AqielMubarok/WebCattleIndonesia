@@ -20,7 +20,7 @@
         <li class="item"><a href="">Berita</a></li>
         <li class="item"><a href="">Edukasi</a></li>
         <li class="item"><a href="">Tentang Kita</a></li>
-        <li class="item button"><a href="Login.php">Masuk</a></li>
+        <li class="item button"><a href="../Halaman_Login/Login.php">Masuk</a></li>
         <li class="item button secondary"><a href="../Halaman_Registration/registration.php">Daftar</a></li>
     </ul>
   </nav>

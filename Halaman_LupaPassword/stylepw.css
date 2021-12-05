@@ -275,20 +275,28 @@ a:hover {
   color: #ff0000;
 }
 
-.btn-login {
+.item2 {
   width: 100%;
-  position: absolute;
-  width: 300px;
-  height: 40px;
-  margin-left: 20px;
-  margin-top: 20px;
+  text-align: center;
+  order: 3;
+  display: block;
+  width: auto;
+}
+
+.button2 a {
+  text-decoration: none;
+  padding: 7px 100px;
   background: #089c05;
-  border-radius: 15px;
-  border: 0px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  color: #ffffff;
+  border: 1px solid #089c05;
+  border-radius: 50em;
+  color: #ffffff; 
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -125px;
+}
+
+.item2.button2 {
+  margin-top: -30px;
 }
 
 footer {
