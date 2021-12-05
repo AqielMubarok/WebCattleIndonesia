@@ -33,16 +33,15 @@
       <div class="login-text">Masuk</div>
       <div class="welcome">Selamat Datang di Cattle Indonesia, Isi datamu terlebih dahulu ya!</div>
         <div class="section-form">
-              <div class="label-input-nomor">Nomor Handphone</div>
-              <input class="form-input-name" type="text" placeholder="Masukan Nomor Handphone" name="nohp" required/>
-              <div class="label-input-password">Kata Sandi</div>
-              <input class="form-input-name" type="password" placeholder="Masukan Password" NAME= "pass" required/>
-              <div class="text-forgot"><a href="">Lupa Kata Sandi?</a></div>
-          </div>
+          <div class="label-input-nomor">Nomor Handphone</div>
+          <input class="form-input-name" type="text" placeholder="Masukan Nomor Handphone" name="nohp" required/>
+          <div class="label-input-password">Kata Sandi</div>
+          <input class="form-input-name" type="password" placeholder="Masukan Password" NAME= "pass" required/>
+          <div class="text-forgot"><a href="">Lupa Kata Sandi?</a></div>
+        </div>
           <input class="btn-login" type="submit" name="Masuk" value="Masuk"></input>
           <img class="atau" src="assets/LineForm.png" height="15" width="300">
           <input class="btn-google" type="submit" name="Login" value="Google"></input>
-
     </div>    
   </div>
   </form>
