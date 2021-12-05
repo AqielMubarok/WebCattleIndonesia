@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css?family=PT+Sans">
+    <link rel="stylesheet" href="style.css" >
+    <script src="https://kit.fontawesome.com/f2db5c1d14.js" crossorigin="anonymous"></script>
+    <title>Pembayaran</title>
+</head>
+<body>
+     <!-- Nav Bar -->
+  <nav class="shadow">
+    <ul class="menu">
+        <a href=""> <img class ="namabrand" src="img/NamaBrand.png" width="90" height="60"></img></a>
+        <li class="item"><a href="">Home</a></li>
+        <li class="item"><a href="">Jadi Mitra</a></li>
+        <li class="item"><a href="">Berita</a></li>
+        <li class="item"><a href="">Edukasi</a></li>
+        <li class="item"><a href="">Tentang Kita</a></li>
+        <li class="item"><a href="">Produk</a></li>
+        <li class="item"><a href=""><span>Nama User</span></a></li>
+    </ul>
+  </nav>
+  <!-- Nav Bar -->
+
+  <div class="navbarSecond">
+    <ul class="menuSecond">
+      <li class="itemSecond">
+        <select name="kategori" id="kategori" placeholder="kategori">
+          <option value="kategori">Kategori</option>
+          <option value="daging">Daging</option>
+          <option value="telur">Telur</option>
+          <option value="susu">Susu</option>
+        </select>
+      </li>
+      <li class="itemSecond">
+        <div class="input-icon">
+        <input type="search" name="search" id="search-produk" placeholder="Cari Produk">
+        <i class="fas fa-search"></i>
+        </div>
+      </li>
+      <li class="itemSecond"><a href="">Keranjang</a></li>
+      <li class="itemSecond"><a href="">Favourite</a></li>
+      <li class="itemSecond"><a href="">Transaksi</a></li>
+      <li class="itemSecond"><a href="">Transaksi</a></li>
+    </ul>
+  </div>
+
+  <br>
+
+  <!-- Konten Pembayaran -->
+  <div class="konten">
+      <div class="judul">
+          <h2>Pembayaran</h2>
+      </div>
+      <div class="langkah">
+          <h4>1 dan 2 langkah</h4>
+            <img src="img/langkah1.png" alt="" width="150px">
+            <img src="img/langkah2.png" alt="" width="150px">
+            <br>
+            <img src="img/no1.png" alt="" width="20px"> <p>Atur Pesanan</p>
+            <span><img src="img/no2.png" alt="" width="20px"> <p>Bayar Pesanan</p></span>
+      </div>
+      <div class="pengiriman">
+        <table>
+            <tr>
+                <td>
+                    <h4>Kirim ke mana?</h4>
+                    <p>Nama User-089623232323</p>
+                    <h4>Rumah</h4>
+                    <br>
+                    <p>Jalan lebak Rt.06/Rw.07 No.09</p>
+                    <p>Tebet, Jakarta Selatan</p>
+                    <p>DKI Jakarta, 12850</p>
+                    <p>Indonesia</p>
+                    <img src="img/peta.png" alt="" width="200px">
+                    <p><b><u><a style="color: #089C05;" href="">Edit Alamat</a></u></b></p>
+                </td>
+                <td>
+                    <img src="img/telur.png" alt=""> <span><p>Nama Produk</p></span>
+                    <br><br>
+                    <select name="ekspedisi" id="ekspedisi" placeholder="ekspedisi">
+                    <option value="ekspedisi">Ekspedisi</option>
+                    <option value="j&t">J&T</option>
+                    <option value="jne">JNE</option>
+                    <option value="pos-indonesia">POS Indonesia</option>
+                    <option value="sicepat">SiCepat</option>
+                    <option value="indahcargo">Indah Cargo</option>
+                    <option value="tiki">TIKI</option>
+                    <option value="wahana">Wahana</option>
+                    <option value="gokilat">Go-Kilat</option>
+                    </select>
+                    <br>
+                    <div class="estimasi-biaya">
+                        <p>Estimasi dan Biaya</p>
+                    </div>
+                    <h5>Syarat dan Ketentuan</h5>
+                    <br>
+                    <input type="checkbox" id="syarat-ketentuan"> <p style="display: inline;color:#FF0000;">Asuransi dan pengiriman dari x </p>
+                    <p style="color: #FF0000;">Jaminan resiko bila barang hilang atau rusak dalam pengiriman</p>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <hr>
+        <br>
+      </div>
+      <center>
+      <div class="rincian-harga">
+          <h5>Rincian Harga</h5>
+          <br>
+          <table>
+              <tr>
+                  <td>Total harga Barang</td>
+                  <td>Rp. 999.000</td>
+              </tr>
+              <tr>
+                  <td>Ongkos kirim dan penanganan</td>
+                  <td>Rp. 15.999</td>
+              </tr>
+              <tr>
+                  <td>Biaya asuransi pengiriman</td>
+                  <td>Rp. 500</td>
+              </tr>
+              <tr>
+                  <b><td>Total Pembayaran</td></b>
+                  <b><td>Rp. 1.000.000</td></b>
+              </tr>
+          </table>
+          <br>
+          <button type="submit">Pilih Metode Pembayaran</button>
+      </div>
+    </center>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+        <img class="pemisah" src="img/lineFooter.png" height="10" width="1000">
+        <table width="100%">
+          <tr>
+            <td width="70%" class="left">
+              <h3>Cattle Indonesia</h3>
+              <p>Produk Peternakan Terbaik <br>
+                Langsung dari Peternak  <br>
+                Asli Indonesia</p>
+            </td>
+            <td width="30%" class="right">
+              <p><a href="">Info</a></p>
+              <p><a href="">Contact Us</a></p>
+              <p><a href="">Privacy Policies</a></p>
+              <p><a href="">Terms & Conditions</a></p>
+            </td>
+          </tr>
+        </table>
+    </div>
+    <div class="footer-bottom">
+        <p>©Cattle Indonesia All Rights Reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
