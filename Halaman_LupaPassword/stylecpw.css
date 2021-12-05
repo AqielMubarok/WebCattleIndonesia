@@ -213,7 +213,7 @@ a:hover {
 }
 
 .background {
-  margin: 45px 165px;
+  margin: 45px 90px;
 }
 
 .section-daftar {
@@ -222,73 +222,26 @@ a:hover {
   border: 3px solid #e1b12c;
   backdrop-filter: blur(25px);
   border-radius: 25px;
-  width: 350px;
-  height: 500px;
-  left: 870px;
-  top: 120px;
+  width: 400px;
+  height: 300px;
+  left: 800px;
+  top: 170px;
 }
 
 .login-text {
   font-style: normal;
   font-weight: bold;
   font-size: 35px;
-  line-height: 67px;
-  margin-left: 20px;
+  margin-left: 10px;
   color: #089c05;
+  margin-top: 90px;
 }
 
 .welcome {
   font-style: normal;
   font-size: 18px;
-  margin-left: 20px;
+  margin-left: 10px;
   color: #089c05;
-}
-
-.section-form {
-  margin-left: 20px;
-}
-
-.label-input-nomor {
-  color: #089c05;
-  margin-top: 10px;
-}
-
-.label-input-password {
-  color: #089c05;
-  margin-top: 10px;
-}
-
-.form-input-name {
-  width: 100%;
-  background: rgba(255, 255, 255, 0.8);
-  box-sizing: border-box;
-  border-radius: 10px;
-  padding-left: 15px;
-  margin-top: auto;
-  width: 300px;
-  height: 40px;
-  border: 1px solid #089c05;
-}
-
-.text-forgot a {
-  margin-left: 180px;
-  color: #ff0000;
-}
-
-.btn-login {
-  width: 100%;
-  position: absolute;
-  width: 300px;
-  height: 40px;
-  margin-left: 20px;
-  margin-top: 20px;
-  background: #089c05;
-  border-radius: 15px;
-  border: 0px;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  color: #ffffff;
 }
 
 footer {
