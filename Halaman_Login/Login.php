@@ -37,7 +37,7 @@
           <input class="form-input-name" type="text" placeholder="Masukan Nomor Handphone" name="nohp" required/>
           <div class="label-input-password">Kata Sandi</div>
           <input class="form-input-name" type="password" placeholder="Masukan Password" NAME= "pass" required/>
-          <div class="text-forgot"><a href="">Lupa Kata Sandi?</a></div>
+          <div class="text-forgot"><a href="../Halaman_LupaPassword/LupaPassword.php">Lupa Kata Sandi?</a></div>
         </div>
           <input class="btn-login" type="submit" name="Masuk" value="Masuk"></input>
           <img class="atau" src="assets/LineForm.png" height="15" width="300">
