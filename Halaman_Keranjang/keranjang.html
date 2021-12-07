@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lora&display=swap">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/f2db5c1d14.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -27,40 +28,52 @@
   </nav>
   <!-- Nav Bar -->
 
-  <h2 class="kategori"><a href="">Kategori Produk</a></h2>
-  <div class="box">
-    <input type="text" class="input" placeholder="Cari Produk">
-    <button class="src"><a href="">SEARCH</a></button>
+  <li class="kategori"><a href="">Kategori Produk</a></li>
+  <div class="navbarSecond">
+    <ul class="menuSecond">
+      <li class="itemSecond">
+        <div class="input-icon">
+        <input type="search" name="search" id="search-produk" placeholder="Cari Produk">
+        <i class="fas fa-search"></i>
+        </div>
+      </li>
+      <li class="itemSecond"><a href="">Keranjang</a></li>
+      <li class="itemSecond"><a href="">Favourite</a></li>
+      <li class="itemSecond"><a href="">Transaksi</a></li>
+      <li class="itemSecond"><a href="">Transaksi</a></li>
+    </ul>
   </div>
-  <h2 class="keranjang"><a href="">Keranjang</a></h2>
-  <h2 class="favourit"><a href="">Favourit</a></h2>
-  <h2 class="transaksi"><a href="">Transaksi</a></h2>
-  <h2 class="notifikasi"><a href="">Notifikasi</a></h2>
 
   <h2 class="keranjang2">Keranjang Belanja</h2>
   <h2 class="jumlahproduk">1 Produk</h2>
 
-  <select class="form-select" aria-label="Default select example">
-    <option selected>Urutkan</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-
-  <div class="box2">
-    <input type="text" class="input2" placeholder="Cari Produk">
-    <button class="src"><a href="">SEARCH</a></button>
+  <div class="navbarThird">
+    <ul class="menuThird">
+      <li class="itemThird">
+        <div class="input-icon-transaksi">
+        <input type="search" name="search" id="search-transaksi" placeholder="Cari Transaksi">
+        <i class="fas fa-search"></i>
+        </div>
+      </li>
+      <li class="itemThird">
+        <select name="urutan" id="urutan" placeholder="urutan">
+          <option value="urutkan">Urutkan</option>
+          <option value="baru-lama">Terbaru</option>
+          <option value="lama-baru">Terlama</option>
+        </select>
+      </li>
+    </ul>
   </div>
 
   <div>
     <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
   </div>
-
   <h2 class="teks">Pilih Semua</h2>
+
   <li class="item button"><a href="">Hapus Produk</a></li>
   <a href=""><img class="produk" src="assets/ayam.png" height="130" width="130"></img></a>
   <input class="form-check-input2" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
-  <h2 class="teks2">Ayam</h2>
+  <h2 class="teks2">Daging Ayam</h2>
   <h2 class="harga">Rp.50.000</h2>
 
   <form action = "" method = "post">

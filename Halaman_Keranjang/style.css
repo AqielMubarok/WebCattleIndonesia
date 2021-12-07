@@ -72,33 +72,40 @@ a:hover {
 .kategori {
   margin-left: 155px;
   margin-top: 30px;
-  font-size: 20px;
-}
+  display: block;
 
-.keranjang {
-  font-size: 20px;
-  margin-left: 850px;
-  margin-top: -35px;
 }
-
-.favourit {
-  font-size: 20px;
-  margin-left: 960px;
-  margin-top: -23px;
+/* Navbar Second */
+.menuSecond {
+  margin-left: 27%;
+  margin-top: -27px;
+  position: absolute; 
 }
-
-.transaksi {
-  font-size: 20px;
-  margin-left: 1150px;
-  margin-top: -23px;
+.menuSecond li {
+  float: left;
 }
-
-.notifikasi {
-  font-size: 20px;
-  margin-left: 1050px;
-  margin-top: -23px;
+.menuSecond li a,
+input,
+select {
+  display: block;
+  padding: 8px;
+  margin-left: 30px;
 }
-
+input #search-produk {
+  width: 250px;
+  border: none;
+  margin-left: -10px;
+}
+.menuSecond #search-produk {
+  width: 400px;
+  border-radius: 50px;
+}
+.input-icon i {
+  margin-left: 390px;
+  margin-top: -25px;
+  position: absolute;
+}
+/* Navbar Second */
 
 .keranjang2 {
   font-size: 30px;
@@ -111,68 +118,62 @@ a:hover {
   margin-top: 10px;
 }
 
-select {
-  margin-left: 500px;
-  border: 3px solid black;
+.menuThird {
+  margin-left: 10%;
+  margin-top: 30px;
+}
+.menuThird li {
+  float: left;
+}
+.menuThird input {
   width: 300px;
-  height: 42px;
+  margin-left: 18px;
   border-radius: 10px;
-  margin-top: 20px;
 }
-
-.box {
-    background: #44BD32;
-    margin-top: -30px;
-    margin-left: 500px;
-    border: 3px solid black;
-    width: 300px;
-    border-radius: 10px;
-    height: 42px;
+.menuThird select {
+  width: 300px;
+  border-radius: 10px;
+  margin-left: 40px;
 }
-
-.input {
-    outline: none;
-    height: 35px;
-    width: 220px;
-    border-radius: 5px;
-    padding-left: 5px;
-    border:0;
+.input-icon-transaksi i {
+  margin-left: 280px;
+  margin-top: -25px;
+  position: absolute;
 }
-
-.box2 {
-    background: #44BD32;
-    margin-top: -40px;
-    margin-left: 155px;
-    border: 3px solid black;
-    width: 300px;
-    border-radius: 10px;
-    height: 42px;
+.konten {
+  margin-top: 50px;
 }
-
-.input2 {
-    outline: none;
-    height: 35px;
-    width: 220px;
-    border-radius: 5px;
-    padding-left: 5px;
-    border:0;
+.konten table {
+  margin-left: 14%;
+  background-color: #e1b12c;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 25px;
 }
-
-.src {
-    background: transparent;
-    outline: none;
-    border:0;
-    padding-left: 5px;
+th,
+td {
+  width: 240px;
+  height: 50px;
+  padding: 10px;
+}
+td button {
+  width: 200px;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: #44bd32;
+  color: white;
+  font-style: bold;
+  border: none;
 }
 
 .form-check-input {
   margin-left: 155px;
-  margin-top:30px;
+  margin-top:20px;
 }
 
 .teks {
   margin-left: 180px;
-  margin-top:-24px;
+  margin-top:-20px;
 }
 
 .button a {
@@ -197,41 +198,19 @@ select {
   width: auto;
 }
 
-.button2 a {
-    text-decoration: none;
-    padding: 7px 15px;
-    background: #089c05;
-    border: 1px solid #089c05;
-    border-radius: 50em;
-    color: #ffffff; 
-    position: absolute;
-    margin-top: 50px;
-    margin-left: 69px;
-}
-
-.item.button2 {
-    margin-top: -20px;
-    margin-right: 500px;
-}
-
-.produk {
-  margin-left: 160px;
-  margin-top: 30px;
-}
-
 .produk {
   margin-left: 160px;
   margin-top: 30px;
 }
 
 .form-check-input2 {
-  margin-left: -130px;
-  margin-top:30px;
+  margin-left: 160px;
+  margin-top:-135px;
   position: absolute; 
 }
 
 .teks2 {
-  margin-left: 195px;
+  margin-left: 157px;
   margin-top:-5px;
 }
 
@@ -278,13 +257,21 @@ select {
   margin-top: 10px;
 }
 
-.btn-keranjang {
+.button2 a {
   text-decoration: none;
   padding: 7px 15px;
-  background: #FF0000;
-  border: 1px solid #FF0000;
+  background: #089c05;
+  border: 1px solid #089c05;
   border-radius: 50em;
   color: #ffffff; 
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 69px;
+}
+
+.item.button2 {
+  margin-top: -20px;
+  margin-right: 500px;
 }
 
 /* Navbar */
