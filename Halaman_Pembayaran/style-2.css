@@ -241,8 +241,8 @@ input #search-produk {
   border-radius: 50px;
 }
 .input-icon i {
-  margin-left: 400px;
-  margin-top: -24px;
+  margin-left: 390px;
+  margin-top: -25px;
   position: absolute;
 }
 .menuThird {
@@ -279,18 +279,6 @@ input #search-produk {
 .langkah span {
   margin-left: 40px;
 }
-table {
-  width: 100%;
-}
-
-div .rincian-harga {
-  padding: 20px;
-  margin-top: 20px;
-  background-color: #e1b12c;
-  border-radius: 25px;
-  border: none;
-  width: 40%;
-}
 .rincian-harga button {
   background-color: #089c05;
   color: white;
@@ -300,26 +288,52 @@ div .rincian-harga {
   width: 250px;
   border-radius: 10px;
 }
-.rincian-harga table {
-  border: none;
-}
-div .pemilihan-ekspedisi {
-  margin-left: -300px;
-  margin-top: 100px;
-}
-div .kirim {
-  margin-top: 100px;
-  border-right: 1px solid grey;
-  width: 550px;
-}
-select#ekspedisi,
-input#estimasi-biaya {
-  margin-left: 0px;
-  width: 300px;
-}
-input#syarat-ketentuan {
+.metode-pembayaran input,
+.all-metode-pembayaran input {
   margin-left: 0px;
   display: inline;
+}
+.rincian-harga span p {
+  display: inline;
+}
+div .rincian-harga {
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.rincian-harga h4 {
+  margin-left: 10px;
+}
+.rincian-harga button {
+  margin-left: 50px;
+}
+div .metode-pembayaran {
+  background-color: #e1b12c;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 500px;
+  height: 150px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+div .all-metode-pembayaran {
+  background-color: #e1b12c;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 500px;
+  padding-top: 30px;
+  padding-left: 30px;
+  height: 250px;
+  margin-top: -50px;
+}
+div .rincian-harga {
+  background-color: #e1b12c;
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 500px;
+  padding-top: 30px;
+  padding-left: 30px;
+  height: 250px;
+  margin-left: 30px;
 }
 
 footer {
