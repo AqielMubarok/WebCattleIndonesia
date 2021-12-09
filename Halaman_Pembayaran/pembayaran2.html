@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" 
     href="https://fonts.googleapis.com/css?family=PT+Sans">
-    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="style-2.css" >
     <script src="https://kit.fontawesome.com/f2db5c1d14.js" crossorigin="anonymous"></script>
     <title>Pembayaran</title>
 </head>
@@ -59,87 +59,79 @@
       <div class="langkah">
           <h4>1 dan 2 langkah</h4>
             <img src="img/langkah1.png" alt="" width="150px">
-            <img src="img/langkah2.png" alt="" width="150px">
+            <img src="img/langkah1.png" alt="" width="150px">
             <br>
             <img src="img/no1.png" alt="" width="20px"> <p>Atur Pesanan</p>
-            <span><img src="img/no2.png" alt="" width="20px"> <p>Bayar Pesanan</p></span>
+            <span><img src="img/no2-green.png" alt="" width="20px"> <p>Bayar Pesanan</p></span>
       </div>
-      <div class="pengiriman">
+      <div class="pembayaran">
         <table>
             <tr>
                 <td>
-                  <div class="kirim">
-                    <h4>Kirim ke mana?</h4>
-                    <p>Nama User-089623232323</p>
-                    <h4>Rumah</h4>
+                  <div class="metode-pembayaran">
+                    <h4>Rekomendasi Buat Kamu</h4>
                     <br>
-                    <p>Jalan lebak Rt.06/Rw.07 No.09</p>
-                    <p>Tebet, Jakarta Selatan</p>
-                    <p>DKI Jakarta, 12850</p>
-                    <p>Indonesia</p>
-                    <br>
-                    <img src="img/peta.png" alt="" width="200px">
-                    <br>
-                    <p><b><u><a style="color: #089C05;" href="">Edit Alamat</a></u></b></p>
+                    <input type="radio" id="dana" name="metode-pembayaran">
+                    <label for="dana">Dana</label>
+                    <br><br>
+                    <input type="radio" id="virtual-account" name="metode-pembayaran">
+                    <label for="virtual-account">Virtual-account</label>
                   </div>
                 </td>
-                <td class="right">
-                  <div class="pemilihan-ekspedisi">
-                    <img src="img/telur.png" alt=""> <span><p>Nama Produk</p></span>
+                <td class="rincian-harga-utama">
+                  <div class="rincian-harga">
+                    <table cellspacing="10">
+                      <h4>Rincian Harga</h4>
+                      <br>
+                      <tr>
+                        <td>Total harga barang</td>
+                        <td>Rp. 999.000</td>
+                      </tr>
+                      <tr>
+                        <td>Ongkos kirim dan penanganan</td>
+                        <td>Rp. 15.999</td>
+                      </tr>
+                      <tr>
+                        <td>Biaya asuransi pengiriman</td>
+                        <td>Rp. 500</td>
+                      </tr>
+                      <tr>
+                        <td><b> pembayaran </b></td>
+                        <td><b> Rp. 1000.000 </b></td>
+                      </tr>
+                    </table>
                     <br>
-                    <select name="ekspedisi" id="ekspedisi" placeholder="ekspedisi">
-                      <option value="ekspedisi">Ekspedisi</option>
-                      <option value="j&t">J&T</option>
-                      <option value="jne">JNE</option>
-                      <option value="pos-indonesia">POS Indonesia</option>
-                      <option value="sicepat">SiCepat</option>
-                      <option value="indahcargo">Indah Cargo</option>
-                      <option value="tiki">TIKI</option>
-                      <option value="wahana">Wahana</option>
-                      <option value="gokilat">Go-Kilat</option>
-                    </select>
-                    <br>
-                    <input type="text" id="estimasi-biaya" placeholder="Estimasi dan Biaya">
-                    <h5>Syarat dan Ketentuan</h5>
-                    <br>
-                    <input type="checkbox" id="syarat-ketentuan"> <p style="display: inline;color:#FF0000;">Asuransi dan pengiriman dari x </p>
-                    <p style="color: #FF0000;">Jaminan resiko bila barang hilang atau rusak dalam pengiriman</p>
+                    <button type="submit">Bayar dengan Dana</button>
                   </div>
-                </td>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div class="all-metode-pembayaran">
+                  <h4>Semua Metode Bayar</h4>
+                  <br>
+                  <input type="radio" id="gerai" name="metode-pembayaran">
+                  <label for="gerai">Gerai</label>
+                  <br><br>
+                  <input type="radio" id="kredit-debit" name="metode-pembayaran">
+                  <label for="kredit-debit">Kartu Kredit atau Debit</label>
+                  <br><br>
+                  <input type="radio" id="internet-banking" name="metode-pembayaran">
+                  <label for="internet-banking">Internet Banking</label>
+                  <br><br>
+                  <input type="radio" id="transfer-bank" name="metode-pembayaran">
+                  <label for="transfer-bank">Transfer Bank</label>
+                  <br><br>
+                  <input type="radio" id="cicilan-tanpa-kartu" name="metode-pembayaran">
+                  <label for="cicilan-tanpa-kartu">Cicilan tanpa Kartu</label>
+                </div>
+            </td>
             </tr>
         </table>
         <br>
-        <hr>
-        <br>
       </div>
-      <center>
-      <div class="rincian-harga">
-          <h5>Rincian Harga</h5>
-          <br>
-          <table>
-              <tr>
-                  <td>Total harga Barang</td>
-                  <td>Rp. 999.000</td>
-              </tr>
-              <tr>
-                  <td>Ongkos kirim dan penanganan</td>
-                  <td>Rp. 15.999</td>
-              </tr>
-              <tr>
-                  <td>Biaya asuransi pengiriman</td>
-                  <td>Rp. 500</td>
-              </tr>
-              <tr>
-                  <b><td>Total Pembayaran</td></b>
-                  <b><td>Rp. 1.000.000</td></b>
-              </tr>
-          </table>
-          <br>
-          <button type="submit">Pilih Metode Pembayaran</button>
-      </div>
-    </center>
-  </div>
-
+    </div>
+      
   <footer>
     <div class="footer-content">
         <img class="pemisah" src="img/lineFooter.png" height="10" width="1000">
